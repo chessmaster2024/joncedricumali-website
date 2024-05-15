@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="naruto.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box1">
+      <div class="header">
+        <div class="home-button">
+          <a href="C:\Users\ACER\OneDrive\Desktop\MyWeb1\index.html">Home</a>
+        </div>
+      </div>
+      <div class="body">
+        <div class="naruto-info">
+          <h2>Uzumaki Naruto</h2>
+          <p id="naruto-text">Naruto is a young ninja who dreams of becoming the Hokage, the leader of his village.<br>
+            He is known for his boundless energy, mischievous pranks, and his ability to make unexpected friends<br>
+            As the series progresses, Naruto grows stronger both physically and mentally, mastering various ninja techniques and forming strong bonds with his teammates and friends.
+           His unwavering determination and positive attitude inspire those around him, making him a beloved character in the Naruto universe.</p>
+          <div class="button-container">
+            <button class="prev-button" onclick="showPrevious()">Preview</button>
+            <button class="next-button" onclick="showNext()">Next</button>
+          </div>
+        </div>
+      </div>
+        <div class="footer">
+        <button class="arrow-button" onclick="alert('Left button clicked!')">←</button>
+      <button class="arrow-button" onclick="alert('Right button clicked!')">→</button>
+      </div>
+    </div>
+        <div class="box2">
+          <div class="header">Images</div>
+          <div class="body">
+            <img id="naruto-image" src="C:\Users\ACER\OneDrive\Desktop\MyWeb1\Animes to Watch\Naruto info\narutoimage.png" alt="Naruto Image">
+          </div>
+          <div class="footer">
+            <button class="arrow-button left" onclick="changeImage('left')">←</button>
+            <button class="arrow-button right" onclick="changeImage('right')">→</button>
+          </div>
+        </div>
+        
+        <div class="box3">
+          <div class="header">More Info</div>
+          <div class="body">
+            <div class="naruto-info">
+              <h2>Uzumaki Naruto</h2>
+              <p id="naruto-text">Naruto was born on October 10th to Minato Namikaze and Kushina Uzumaki<br><br>
+                As a newborn, Naruto was made the jinchuriki of the Nine-Tails fox after the beast attacked Konoha<br><br>
+                This caused him to be shunned by many villagers throughout his childhood<br><br>
+                Despite the hardships, Naruto dreamed of becoming the Hokage to gain the village's acknowledgement.
+            </div>
+          </div>
+          <div class="footer">
+            <button class="arrow-button" onclick="alert('Left button clicked!')">←</button>
+            <button class="arrow-button" onclick="alert('Right button clicked!')">→</button>
+          </div>
+        </div>
+      </div>
+    <script src="naruto.js"></script>
+</body>
+</html>
