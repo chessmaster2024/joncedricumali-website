@@ -1,8 +1,8 @@
 let currentIndex = 0;
 const images = [
-  'Naruto info\\narutoimage.png',
-  'Naruto info\\sakuraimg.jpg',
-  'Naruto info\\sasukeimage.png'
+  'C:\\Users\\ACER\\OneDrive\\Desktop\\Naruto info\\narutoimage.png',
+  'C:\\Users\\ACER\\OneDrive\\Desktop\\Naruto info\\narutoimage.png\\sakuraimg.jpg',
+  'C:\\Users\\ACER\\OneDrive\\Desktop\\Naruto info\\narutoimage.png\\sasukeimage.png'
 ];
 
 function changeImage(direction) {
