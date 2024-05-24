@@ -1,0 +1,89 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+    transition: background-color 0.5s;
+}
+.dark-mode{
+    background-color: #333;
+    color: #fff;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+label{
+    margin-top: 10px;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+h1{
+    font-size: 3rem;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap;  
+    animation: typing 3s steps(30, end), blink-caret 1s step-end infinite;
+    animation: colorChange 5s infinite;
+}
+@keyframes h1 {
+    from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(211, 211, 211); }
+}
+.description {
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    margin-top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.greetings{
+    font-family: monospace;
+    font-size: larger;
+    animation: colorChange 5s infinite;
+}
+@keyframes colorChange {
+    0% {
+      color: rgb(255, 70, 70);
+    }
+    25% {
+      color: rgb(7, 172, 228);
+    }
+    50% {
+      color: rgb(55, 241, 55);
+    }
+    75% {
+      color: orange;
+    }
+    100% {
+      color: pink;
+    }
+  }
+button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+button:hover{
+  transform: scale(0.95);
+}
