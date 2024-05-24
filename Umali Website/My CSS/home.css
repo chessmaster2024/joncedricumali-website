@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: peachpuff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: rgb(33, 33, 33); 
+    font-family: monospace;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: background-color 0.3s ease;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    transition: color 0.3s ease;
+}
+button {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: transform 0.2s;
+}
+button:hover{
+    transform: scale(0.95);
+}
+li{
+    list-style: none ;
+    display: inline-block;
+}
+.navbutton{
+    background-color: rgb(2, 226, 36);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    transition: background-color 0.3s ease;
+}
+.navbutton a{
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.flex-container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0.5;
+    background-color: #d3d3d3;
+    height: 550px;
+}
+
+.main {
+    flex: 2;
+    background-color: lightblue;
+    font-size: larger;
+    
+}
+.main .title{
+    text-align: center;
+}
+h4{
+    font-family: monospace;
+    font-size: larger;
+}
+.Profpic{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.Profpic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    font-size:large;
+}
+hr {
+    width: 150px;
+    height: 2px;
+    background-color: #000000; 
+    animation: slideIn 1s ease;
+  }
+  @keyframes slideIn {
+    from {
+      width: 0;
+    }
+    to {
+      width: 150px;
+    }
+  }
+  .text{
+    font-size: small;
+  }
+  .sidebar .categories {
+    margin-top: 20px;
+}
+
+.sidebar .categories h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.sidebar .categories ul {
+    padding: 0;
+}
+
+.sidebar .categories li {
+    margin-bottom: 8px;
+}
+
+.sidebar .categories li a {
+    color: #333;
+    text-decoration: none;
+    font-family: monospace;
+}
+.sidebar .categories li a:hover {
+    color: #666;
+}
+.arrow::before {
+    content: "\25B6\00a0";
+    
+}
+.content{
+    height: 450px;
+    width: 700px;
+    border: 2px solid black;
+    background-color: goldenrod;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+summary{
+    font-size: small;
+    font-family: monospace;
+    margin-left: 10px;
+    cursor: pointer;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+p{
+    text-align: justify;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h4{
+    text-align: center;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@keyframes colorChange {
+    0% { color: blue; }
+    50% { color: red; }
+    100% { color: green; }
+}
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    animation: colorChange 3s infinite;
+    font-style: normal;
+}
+.main-text{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h5{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: large;
+}
+
+  
+
