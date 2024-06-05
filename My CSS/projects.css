@@ -10,7 +10,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    height: 600px;
+    height: 650px;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -73,7 +73,7 @@ li{
 .flex-container {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     gap: 10px;
     
 }
@@ -97,6 +97,12 @@ h4{
     font-family: monospace;
     font-size: 50px;
     margin-top: 0;
+}
+.flex-box a{
+    color: black;
+    font-family: monospace;
+    font-size: larger;
+    
 }
 
 
